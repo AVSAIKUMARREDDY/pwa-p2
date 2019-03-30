@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Form page</title>
+    <link rel="stylesheet" href="css/form1.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  </head>
+  <body>
+    <div class="Parent">
+      <!-- career objective -->
+      <div class="career">
+        <h1>Career Objective</h1>
+        <label for="career">
+        <input type="text" name="career" id="career" placeholder="Carrer Objective">
+        </label>
+      </div>
+      <!-- personal info -->
+      <div class="Details">
+        <h1>Personal Details</h1>
+        <input type="text" name="name" id="name" placeholder="Enter ur Name">
+        <!-- </label> -->
+        <br>
+        <!-- <label for=""> -->
+        <input type="number" name="mobile" id="mobile" placeholder="Enter ur Mobile Number">
+        <!-- </label> -->
+        <br>
+        <!-- <label for=""> -->
+        <input type="email" name="email" id="email" placeholder="Email">
+        <!-- </label> -->
+        <br>
+        <!-- <label for=""> -->
+        <input type="text" name="address" id="address" placeholder="Address">
+        </label>
+        <br>
+      </div>
+      <!-- education details -->
+      <div class="geducation">
+      <h1>Graduation Details</h1>
+      <p>select institute</p>
+      <label for="ginstitute">
+
+        <select id="ginstitute" name="ginstitute">
+          <option >MITS</option>
+          <option >GVALLEY</option>
+          <option >MTERESA</option>
+          <option >VISWAM</option>
+
+        </select>
+      <br>
+      <input type="text" name="degree" id="degree" placeholder="Enter Degree">
+
+      <br>
+      <input type="text" name="branch" id="branch" placeholder="Enter branch">
+
+      <br>
+
+      <input type="number" name="gcgpa" id="gcgpa" placeholder="Enter Percentage/CGPA">
+      <br>
+
+      <input type="number" name="gyop" id="gyop" placeholder="yop">
+      </label>
+      </div>
+      <!-- intermediate details -->
+      <div class="ieducation">
+      <h1>Intermediate Details</h1>
+      <p>select institute</p>
+      <label for="iinstitute">
+
+        <select id="iinstitute" name="iinstitute">
+          <option >free</option>
+          <option >parayana</option>
+          <option >sreeradha</option>
+          <option >bhasyam</option>
+
+        </select>
+      </label>
+
+      <br>
+      <input type="text" name="group" id="group" placeholder="Enter group">
+      <!-- </label> -->
+      <br>
+      <!-- <label for=""> -->
+      <input type="number" name="ipercentage" id="ipercentage" placeholder="Enter Percentage">
+      <br>
+
+      <input type="number" name="iyop" id="iyop" placeholder="yop">
+      </label>
+      </div>
+      <!-- ssc details -->
+      <div class="seducation">
+      <h1>SSC Details</h1>
+      <p>select institute</p>
+      <label for="sinstitute">
+
+        <select id="sinstitute" name="sinstitute">
+          <option >free</option>
+          <option >parayana</option>
+          <option >rathanm</option>
+          <option >bhasyam</option>
+
+        </select>
+      </label>
+      <br>
+      <!-- <label for=""> -->
+      <!-- <input type="text" name="degree" id="degree" placeholder="Enter Degree"> -->
+      <!-- </label> -->
+      <!-- <br> -->
+      <!-- <label for=""> -->
+      <input type="text" name="board" id="board" placeholder="Enter Board">
+      <!-- </label> -->
+      <br>
+      <!-- <label for=""> -->
+      <input type="number" name="scgpa" id="scgpa" placeholder="Enter Percentage/CGPA">
+      <br>
+
+      <input type="number" name="syop" id="syop" placeholder="yop">
+      </label>
+      </div>
+      <br>
+      <div class="Skills">
+        <h1>Technical Skills</h1>
+        <label for="">
+        <input type="text" name="Skills" id="Skills" placeholder="Enter ur Skills">
+        </label>
+      </div>
+
+    </div>
+    <button type="button" name="button" id="button" onclick="submitData()"> Submit</button>
+
+  </body>
+  <script type="text/javascript" src="js/main.js">
+   </script>
+
+</html>

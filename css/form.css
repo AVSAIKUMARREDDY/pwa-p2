@@ -1,0 +1,7 @@
+body{
+  background: cyan;
+
+}
+.parent{
+  display: flex;
+}
